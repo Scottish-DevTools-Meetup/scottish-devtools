@@ -8,19 +8,40 @@ export default defineConfig({
   	base: '/testpagessite/',
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'DevTools Scotland',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Scottish-DevTools-Meetup/testpagessite' }],
+			logo: {
+				src: './src/assets/ScottishDevToolLogo.png',
+				replacesTitle: true,
+
+			},
+			components: {
+				
+			},
+			customCss: [
+				'./src/styles/custom.css',
+			],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Start Here',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'What is DevTools Scotland?', slug: 'intro/what-is-devtools' },
+						{ label: 'Our Vision', slug: 'intro/our-vision' },
+						{ label: 'Market Overview', slug: 'intro/market-overview' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Workshop Materials',
+					items: [
+						{ label: 'Fuzzy Books', slug: 'workshops/fuzzy-books' },
+					],
+				},
+				{
+					label: 'Team',
+					items: [
+						{ label: 'Alan Mathieson', slug: 'team/alan-mathieson' },
+						{ label: 'Cameron Blackwood', slug: 'team/cameron-blackwood' },
+					],
 				},
 			],
 		}),
