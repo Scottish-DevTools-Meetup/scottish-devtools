@@ -4,7 +4,8 @@ description: Overview of the fuzzy-books repo.
 ---
 
 **Build a fuzzy book search using PGVector, Supabase, and OpenAI embeddings.**  
-This repo is used for the first talk in the Scottish DevTools meetup series.
+This repo is used for the first talk in the Scottish DevTools meetup series.\
+👉 <a href="https://github.com/Scottish-DevTools-Meetup/fuzzy-books" target="blank">Link to the fuzzy-books repo</a>
 
 ---
 

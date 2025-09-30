@@ -5,11 +5,11 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	output: 'static',
-  	base: '/testpagessite/',
+  	base: '/scottish-devtools/',
 	integrations: [
 		starlight({
 			title: 'DevTools Scotland',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Scottish-DevTools-Meetup/testpagessite' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Scottish-DevTools-Meetup/scottish-devtools' }],
 			logo: {
 				src: './src/assets/ScottishDevToolLogo.png',
 				replacesTitle: true,

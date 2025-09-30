@@ -9,45 +9,59 @@ hero:
     file: ../../assets/cog2.png
 ---
 
-
-<div class="meetup-callout">
-
-## Next Meetup: Monday 14th October @ CodeBase Edinburgh
-
-Join us for the **first ever** Scottish DevTools meetup! We’re kicking off with a night of code, conversation, and community.
-
-🗓️ **When:** Monday 14th October, 6:30–9:00pm  
-📍 **Where:** CodeBase, Edinburgh
-
-What’s happening:
-- A talk on **PGVector + Supabase** for fuzzy book search
-- Live coding walkthroughs
-- Q&A, pizza, and plenty of chat
-
-Whether you’re a seasoned DevOps engineer or a frontend tinkerer, this is for you. Bring your laptop (optional), your questions, and your curiosity!
-
-</div>
-
-
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid >
   <LinkCard 
   	title="What is DevTools Scotland?" 
 	href="/testpagessite/intro/what-is-devtools/" 
-	description="Learn what we’re building and why community-led DevTools matter."
+	description="What are we up to? And why community-led DevTools matter."
 	>
   </LinkCard>
   <LinkCard 
   	title="Meet the Team" 
 	href="/testpagessite/team/cameron-blackwood/"
-	description="Get to know Alan and Cameron, the organisers behind the scenes."
+	description="Get to know the organisers behind the scenes."
 	>
   </LinkCard>
+</CardGrid>
+
+<div class="meetup-callout">
+
+## First Meetup: Tuesday 14th October @ CodeBase Edinburgh
+We’re launching a new meetup series for developers who want to get hands-on with tools, workflows, and code that actually solve problems. This isn’t another tech talk. It’s a builder’s meetup — and we’re starting strong.
+
+🗓️ **When:** Tuesday 14th October, 6:30–8:00pm  
+📍 **Where:** CodeBase, Edinburgh\
+👉 [RSVP via Luma](https://luma.com/ufzmw4p6)\
+🍕 And yes, there’ll be pizza.\
+🧠 Curiosity essential.
+
+🛠 Our first session is all about PGVector + Supabase — and how you can use them to build a fast, fuzzy book search app using real vector embeddings.
+We’ll show:
+*	How to generate embeddings from book titles and descriptions
+*	How to store and query those embeddings using PGVector inside Supabase
+*	How it compares to keyword search and when it’s worth the switch
+*	A walkthrough of the full repo with live querying and result previews
+
+You’ll leave with a working knowledge of vectors in PostgreSQL and how to plug that into your own projects — no ML background needed.
+
+⚠️ **Don’t forget your laptop:** this isn’t a passive talk. You’ll be writing code, running queries, and building as we go.\
+🧰 **Before you arrive:**
+To get the most out of the session, please make sure you’ve:
+*	Created a free account at Supabase
+*	Installed a code editor like VS Code
+*	Pulled the starter repo (we’ll share the link soon)
+*	Got PostgreSQL basics in your brain (don’t worry — we’ll keep it friendly)
+
+We’ll be writing code, querying vectors, and exploring Supabase live.
+</div>
+
+<CardGrid >
   <LinkCard 
   	title="Workshop Archive" 
 	href="/testpagessite/workshops/fuzzy-books/"
-	description="Explore past meetups, workshops, and hands-on resources."
+	description="Explore meetups, workshops, and hands-on resources."
 	>
   </LinkCard>
   <LinkCard 

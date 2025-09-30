@@ -3,12 +3,13 @@
 }
 
 .hero {
-	padding-block: 2rem;
+	padding-block: 1.5rem;
 }
 
 .meetup-callout {
 	margin-bottom: 2rem;
-	padding: 1.5rem;
-	border: 1px solid #ccc;
+	padding: 1.2rem;
+	border: 1px solid var(--sl-color-gray-5);
 	border-radius: 0.5rem;
+	box-shadow: var(--sl-shadow-sm);
 }
